@@ -94,10 +94,9 @@ header {
 
 .header__inner {
   display: flex;
-  flex-basis: 50%;
   justify-content: space-between;
   align-items: center;
-  height: 30rem;
+  height: 20rem;
 }
 
 .header--text {
@@ -164,10 +163,7 @@ label:active:after {
   width: 45px;
 }
 
-
-
 // SOCIALS
-
 .card--grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -187,6 +183,10 @@ label:active:after {
   box-sizing: border-box;
   cursor: pointer;
   position: relative;
+
+  &:hover {
+    background-color: var(--card);
+  }
 
   &::before {
     content: "";
