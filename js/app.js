@@ -1,3 +1,4 @@
+// Checkbox
 var checkbox = document.querySelector('input[name=theme]');
 
 checkbox.addEventListener('change', function () {
@@ -17,3 +18,4 @@ let transition = () => {
     document.documentElement.classList.remove('transition');
   }, 1000);
 };
+
